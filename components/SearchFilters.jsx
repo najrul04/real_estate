@@ -1,7 +1,11 @@
+import { Flex } from "@chakra-ui/react"
 
 const SearchFilters = () => {
+    const [filters, setFilters] = useState({})
   return (
-    <div>SearchFilters</div>
+    <Flex bg='gray.100' p='4' justifyContent='center' flexWrap='wrap'>
+        
+    </Flex>
   )
 }
 
