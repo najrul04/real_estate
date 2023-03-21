@@ -1,8 +1,11 @@
+import { useState } from "react"
 
-const search = () => {
+const Search = () => {
+    const [searchFilters, setSearchFilters] = useState(false)
+    
   return (
     <div>search</div>
   )
 }
 
-export default search
+export default Search
