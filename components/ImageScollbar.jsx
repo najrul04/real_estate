@@ -2,7 +2,7 @@ import { Box, Flex, Icon } from "@chakra-ui/react";
 import Image from "next/image";
 import { useContext } from "react";
 import { ScrollMenu, VisibilityContext } from "react-horizontal-scrolling-menu";
-// import 'react-horizontal-scrolling-menu/dist/styles.css';
+import 'react-horizontal-scrolling-menu/dist/styles.css';
 import { FaArrowAltCircleLeft, FaArrowAltCircleRight } from "react-icons/fa";
 
 const LeftArrow = () => {
